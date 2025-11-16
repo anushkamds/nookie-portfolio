@@ -1,10 +1,10 @@
 // Get site URL from environment variable, use default value if not set
 // Note: Please set the correct PUBLIC_SITE_URL in .env file after first deployment
-const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://portfolio.ricoui.com/';
+const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://nookie.dev/';
 
 export const siteConfig = {
-	title: "Ricoui Portfolio",
-	author: "Ricoui",
+	title: "Anushka Mahesh",
+	author: "Anushka",
 	url: SITE_URL,
 	mail: "hello@ricoui.com",
 	// resume add your resume file path here: /assets/resume.pdf

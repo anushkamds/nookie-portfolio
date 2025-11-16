@@ -11,30 +11,34 @@ import Explore from "@/components/sections/Explore.astro";
 ---
 
 <Layout
-title="Rico Portfolio Site 2025"
-description="Welcome to Rico's portfolio site! Explore my work as a web/UI designer with 8+ years of experience in creating captivating visuals and interactive experiences."
-keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative Designer"
+  title="Rico Portfolio Site 2025"
+  description="Welcome to Rico's portfolio site! Explore my work as a web/UI designer with 8+ years of experience in creating captivating visuals and interactive experiences."
+  keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative Designer"
 >
   <div
-    class="relative site-container z-20  w-full mx-auto mt-16 px-4 md:mt-18 lg:mt-20 xl:px-0"
+    class="relative site-container z-20 w-full mx-auto mt-16 px-4 md:mt-18 lg:mt-20 xl:px-0"
   >
-    <div class="relative w-full px-4 flex flex-col items-center justify-between md:flex-row mb-16 ">
-      <div class="relative w-full md:max-w-[420px] md:w-1/2 text-center sm:text-left sm:-mt-8">
+    <div
+      class="relative w-full px-4 flex flex-col items-center justify-between md:flex-row mb-16"
+    >
+      <div
+        class="relative w-full md:max-w-[640px] md:w-2/3 text-center sm:text-left sm:-mt-8"
+      >
         <!-- Title - AnimatedText animation -->
         <h1 class="mb-4">
           <AnimatedText
-            content="Hi, I'm Rico"
+            content="Hi, I'm Anushka"
             delay={0.1}
             duration={0.5}
             stagger={0.08}
-            class="text-5xl text-pri leading-tight md:text-4xl lg:text-6xl font-brand "
+            class="text-5xl text-pri leading-tight md:text-4xl lg:text-6xl font-brand"
           />
         </h1>
 
         <!-- First description - AnimatedText animation -->
         <div class="mb-2">
           <AnimatedText
-            content="I'm a web/UI designer with 8+ years of experience. I love blending design and code to create captivating visuals and interactive experiences."
+            content="I'm a full-stack development with 9+ years of experience. I love blending design and code to create captivating visuals and interactive experiences."
             delay={0.3}
             duration={0.5}
             stagger={0.015}
@@ -54,17 +58,21 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         </div>
 
         <!-- Button - AOS animation -->
-        <div
+        <!-- <div
           class=""
           data-aos="fade-up-sm"
           data-aos-delay="900"
           data-aos-duration="500"
           data-aos-once="true"
         >
-          <Button url={siteConfig.social.twitter} type="fill" className="m-auto mt-4 text-center sm:text-left sm:m-0 sm:mt-6 max-w-[200px]">
+          <Button
+            url={siteConfig.social.twitter}
+            type="fill"
+            className="m-auto mt-4 text-center sm:text-left sm:m-0 sm:mt-6 max-w-[200px]"
+          >
             Follow me on 𝕏
           </Button>
-        </div>
+        </div> -->
 
         <!-- Social Cards - AOS animation -->
         <div
@@ -74,7 +82,7 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
           data-aos-duration="600"
           data-aos-once="true"
         >
-          <SocialCard displaySocialIds={[1, 2, 3,4]}/>
+          <SocialCard displaySocialIds={[1, 2, 3, 4]} />
         </div>
       </div>
 
@@ -86,11 +94,11 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
         data-aos-duration="800"
         data-aos-once="true"
       >
-        <HeroCard
+        <!-- <HeroCard
           imageUrl="/assets/home/gradientshub.jpg"
           title="Gradientshub"
           link="https://gradientshub.com"
-        />
+        /> -->
       </div>
     </div>
   </div>
@@ -102,18 +110,22 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <Explore title="Explore ↓"  />
+    <Explore title="Explore ↓" />
   </section>
 
-  <section
+  <!-- <section
     class="mt-26 mb-12"
     data-aos="fade-up-sm"
     data-aos-delay="100"
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <FeaturedWork title="Featured Work ↓" description="I create innovative and purposeful designs that not only capture attention but also drive meaningful results." limit={5} />
-  </section>
+    <FeaturedWork
+      title="Featured Work ↓"
+      description="I create innovative and purposeful designs that not only capture attention but also drive meaningful results."
+      limit={5}
+    />
+  </section> -->
 
   <section
     class="mt-26 mb-12"
@@ -128,5 +140,4 @@ keywords="Rico, Portfolio, Web Design, UI Design, Frontend Development, Creative
       showViewAllButton={true}
     />
   </section>
-
 </Layout>

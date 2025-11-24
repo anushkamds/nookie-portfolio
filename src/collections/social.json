@@ -26,14 +26,16 @@
     "name": "Gumroad",
     "username": "ricoui",
     "image": "/assets/social/social-gumroad.jpg",
-    "url": "https://ricoui.gumroad.com/"
+    "url": "https://ricoui.gumroad.com/",
+    "isShow": false
   },
   {
     "id": 5,
     "name": "Behance",
     "username": "ricoui",
     "image": "/assets/social/social-behance.jpg",
-    "url": "https://www.behance.net/ricoui"
+    "url": "https://www.behance.net/ricoui",
+    "isShow": false
   },
   {
     "id": 6,

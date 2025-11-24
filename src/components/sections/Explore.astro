@@ -514,7 +514,7 @@ const { title, description } = Astro.props;
             isPlaying = false;
             console.debug(
               `Video autoplay attempt ${playAttempts} failed:`,
-              error.name
+              error.name,
             );
 
             // 如果是用户交互问题，等待用户交互后重试
@@ -566,7 +566,7 @@ const { title, description } = Astro.props;
           root: null,
           rootMargin: "50px", // preload
           threshold: 0.1,
-        }
+        },
       );
 
       observer.observe(video);
@@ -607,7 +607,7 @@ const { title, description } = Astro.props;
       // Special handling for mobile devices
       if (
         /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
+          navigator.userAgent,
         )
       ) {
         console.log("Mobile device detected, setting up additional handlers");

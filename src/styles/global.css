@@ -81,22 +81,26 @@ html.dark {
 
 /* Add typography styles */
 @layer components {
-  .font-brand{
-    font-weight: 400!important;
+  .font-brand {
+    font-weight: 400 !important;
   }
+
   .prose {
     max-width: 65ch;
   }
+
   .prose img {
     border-radius: 30px;
   }
-  .container{
+
+  .container {
     max-width: var(--max-screen);
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .site-container {
     max-width: var(--max-screen);
     margin-left: auto;
@@ -104,6 +108,7 @@ html.dark {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .inner-container {
     max-width: var(--inner-screen);
     margin-left: auto;
@@ -111,30 +116,42 @@ html.dark {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .gradient-title {
     background: linear-gradient(to right, #746aff, #0b046d);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
- .gradient-title-light{
+
+  .gradient-title-light {
     background: linear-gradient(to right, #bcb7ff, #746aff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 }
-html,body{
+
+html,
+body {
   color: var(--color-text-secondary);
 }
-html.dark,html.dark body{
+
+html.dark,
+html.dark body {
   color: var(--color-text-secondary-dark);
 }
-h1,h2,h3{
-  color:var(--color-text-primary);
+
+h1,
+h2,
+h3 {
+  color: var(--color-text-primary);
 }
-html.dark h1,html.dark h2,html.dark h3{
-  color:var(--color-text-primary-dark);
+
+html.dark h1,
+html.dark h2,
+html.dark h3 {
+  color: var(--color-text-primary-dark);
 }
 
 /* Custom CSS styles */
@@ -151,7 +168,7 @@ html.dark h1,html.dark h2,html.dark h3{
 }
 
 #darkToggle:hover #moon {
-   transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 
@@ -159,10 +176,11 @@ html.dark #darkToggle:hover .horizon {
   border-color: #718096 !important;
 }
 
-html{
+html {
   font-family: var(--font-sans);
   scroll-behavior: smooth;
 }
+
 html.dark {
   color-scheme: dark;
 }
@@ -244,5 +262,3 @@ body::-webkit-scrollbar-thumb:active,
 div::-webkit-scrollbar-thumb:active {
   background: var(--color-primary-dark) !important;
 }
-
-

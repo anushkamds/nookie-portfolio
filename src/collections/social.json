@@ -1,68 +1,61 @@
 [
-	{
-        "id": 1,
-		"name": "Github",
-        "username": "ricocc",
-		"image": "/assets/social/social-github.jpg",
-		"url": "https://github.com/ricocc/"
-	},
-
-	{
-        "id": 2,
-		"name": "Xiaohongshu",
-        "username": "ricouii",
-		"image": "/assets/social/social-xiaohongshu.jpg",
-		"url": "https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f"
-	},
-
-    {
-        "id": 3,
-		"name": "Twitter",
-        "username": "ricouii",
-		"image": "/assets/social/social-twitter.jpg",
-		"url": "https://x.com/ricouii"
-	},
-
-    {
-        "id": 4,
-		"name": "Gumroad",
-        "username": "ricoui",
-		"image": "/assets/social/social-gumroad.jpg",
-		"url": "https://ricoui.gumroad.com/"
-	},
-
-    {
-        "id": 5,
-		"name": "Behance",
-        "username": "ricoui",
-		"image": "/assets/social/social-behance.jpg",
-		"url": "https://www.behance.net/ricoui"
-	},
-
-    {
-        "id": 6,
-		"name": "figma",
-        "username": "ricocc",
-		"image": "/assets/social/social-figma.jpg",
-		"url": "https://www.figma.com/@ricocc",
-        "isShow": false
-	},
-
-    {
-        "id": 7,
-		"name": "Dribbble",
-        "username": "ricoui",
-		"image": "/assets/social/social-dribbble.jpg",
-		"url": "https://dribbble.com/ricoui"
-	},
-
-    {
-        "id": 8,
-		"name": "Email",
-        "username": "ricocc",
-		"image": "/assets/social/social-email.jpg",
-		"url": "mailto:ricocc@qq.com"
-	}
-
-
+  {
+    "id": 1,
+    "name": "Github",
+    "username": "anushkamds",
+    "image": "/assets/social/social-github.jpg",
+    "url": "https://github.com/anushkamds/"
+  },
+  {
+    "id": 2,
+    "name": "Linkedin",
+    "username": "anushkamahesh",
+    "image": "/assets/social/social-linkedin.jpg",
+    "url": "https://www.linkedin.com/in/anushkamahesh/"
+  },
+  {
+    "id": 3,
+    "name": "Twitter",
+    "username": "ricouii",
+    "image": "/assets/social/social-twitter.jpg",
+    "url": "https://x.com/ricouii",
+    "isShow": false
+  },
+  {
+    "id": 4,
+    "name": "Gumroad",
+    "username": "ricoui",
+    "image": "/assets/social/social-gumroad.jpg",
+    "url": "https://ricoui.gumroad.com/"
+  },
+  {
+    "id": 5,
+    "name": "Behance",
+    "username": "ricoui",
+    "image": "/assets/social/social-behance.jpg",
+    "url": "https://www.behance.net/ricoui"
+  },
+  {
+    "id": 6,
+    "name": "figma",
+    "username": "ricocc",
+    "image": "/assets/social/social-figma.jpg",
+    "url": "https://www.figma.com/@ricocc",
+    "isShow": false
+  },
+  {
+    "id": 7,
+    "name": "Dribbble",
+    "username": "ricoui",
+    "image": "/assets/social/social-dribbble.jpg",
+    "url": "https://dribbble.com/ricoui",
+    "isShow": false
+  },
+  {
+    "id": 8,
+    "name": "Email",
+    "username": "anushka",
+    "image": "/assets/social/social-email.jpg",
+    "url": "mailto:anushka@nookie.dev"
+  }
 ]

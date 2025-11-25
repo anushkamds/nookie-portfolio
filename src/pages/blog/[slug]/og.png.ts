@@ -1,7 +1,6 @@
 import { siteConfig } from "@/config/site.js";
 import { getCollection, type CollectionEntry } from "astro:content";
 import fs from "fs";
-import path from "path";
 import { ImageResponse } from "@vercel/og";
 
 interface Props {

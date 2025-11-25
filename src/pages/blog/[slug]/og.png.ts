@@ -52,7 +52,7 @@ export async function GET({ props, params }: Props) {
           type: "div",
           props: {
             // using tailwind
-            tw: "absolute top-[20px] right-[20px] w-[120px] h-[120px] flex",
+            tw: "absolute top-[24px] right-[24px] w-[120px] h-[120px] flex",
             children: [
               {
                 type: "img",
@@ -126,8 +126,8 @@ export async function GET({ props, params }: Props) {
       style: {
         background: "#f7f8e8",
         backgroundImage:
-          "radial-gradient(circle at 25px 25px, lightgray 2%, transparent 0%), radial-gradient(circle at 75px 75px, lightgray 2%, transparent 0%)",
-        backgroundSize: "100px 100px",
+          "radial-gradient(circle at 32px 32px, lightgray 2%, transparent 0%), radial-gradient(circle at 72px 72px, lightgray 2%, transparent 0%)",
+        backgroundSize: "200px 200px",
       },
     },
   };

@@ -18,7 +18,7 @@ export const siteConfig = {
     campaign: "navigation",
   },
   meta: {
-    title: "ANushka Portfolio",
+    title: "Anushka Portfolio",
     description:
       "I'm Anushka, a web designer passionate about both design and code. Currently developing a personal product for the design community.",
     keywords:

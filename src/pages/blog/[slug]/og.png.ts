@@ -16,14 +16,8 @@ export async function GET({ props, params }: Props) {
     return new Response("Slug parameter is required", { status: 400 });
   }
 
-  // Return 404 if the post doesn't exist
-  if (!post) {
-    return new Response("Blog post not found", { status: 404 });
-  }
+  const postCover = await fs.readFileSync("./src/assets/logo.png");
 
-  const postCover = fs.readFileSync("./public/favicon.png");
-
-  // Astro doesn't support tsx endpoints so usign React-element objects
   const html = {
     type: "div",
     props: {

@@ -23,7 +23,7 @@ export const siteConfig = {
       "I'm Anushka, a web designer passionate about both design and code. Currently developing a personal product for the design community.",
     keywords:
       "web designer, portfolio, design, code, personal website,fullstack developer,devops",
-    image: `${SITE_URL}/og.jpg`,
+    image: `${SITE_URL}/og.png`,
     twitterHandle: "ricouii",
   },
   // social links

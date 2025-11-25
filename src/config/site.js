@@ -28,8 +28,8 @@ export const siteConfig = {
   },
   // social links
   social: {
-    twitter: "https://x.com/ricouii",
-    twitterName: "ricouii",
+    twitter: "https://x.com/anushka",
+    twitterName: "anushka",
     github: "https://github.com/anushkamds",
     blog: "https://nookie.dev/",
     xiaohongshu:

@@ -8,9 +8,10 @@ interface Props {
   title?: string | undefined;
   description?: string | undefined;
   keywords?: string | undefined;
+  slug?: string | undefined;
 }
 
-const { title, description, keywords } = Astro.props;
+const { title, description, keywords, slug } = Astro.props;
 
 import "../styles/global.css";
 import "aos/dist/aos.css";
@@ -22,7 +23,12 @@ import "../styles/article-enhancements.css";
 <html lang="">
   <head>
     <meta charset="UTF-8" />
-    <Meta title={title} description={description} keywords={keywords} />
+    <Meta
+      title={title}
+      description={description}
+      keywords={keywords}
+      slug={slug}
+    />
     <TrackGa />
     <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script is:inline>

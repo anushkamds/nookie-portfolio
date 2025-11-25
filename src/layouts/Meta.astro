@@ -1,5 +1,5 @@
 ---
-import { siteConfig } from '@/config/site.js';
+import { siteConfig } from "@/config/site.js";
 export interface Props {
   title?: string;
   description?: string;
@@ -7,6 +7,7 @@ export interface Props {
   url?: string;
   ogImage?: string;
   twitterHandle?: string;
+  slug?: string;
 }
 
 const {
@@ -15,7 +16,8 @@ const {
   keywords = "",
   url = siteConfig.url, //
   ogImage = "/og.jpg",
-  twitterHandle = siteConfig.social.twitterName || '',
+  slug,
+  twitterHandle = siteConfig.social.twitterName || "",
 } = Astro.props;
 ---
 
@@ -33,7 +35,10 @@ const {
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
-<meta property="og:image" content={ogImage} />
+<meta
+  property="og:image"
+  content={slug ? `${url}/blog/${slug}/og.png` : ogImage}
+/>
 <meta property="og:site_name" content={title} />
 
 <!-- Twitter Meta Tags -->

@@ -1,6 +1,7 @@
 import { siteConfig } from "@/config/site.js";
 import { getCollection, type CollectionEntry } from "astro:content";
 import fs from "fs";
+import path from "path";
 import { ImageResponse } from "@vercel/og";
 
 interface Props {
@@ -16,7 +17,9 @@ export async function GET({ props, params }: Props) {
     return new Response("Slug parameter is required", { status: 400 });
   }
 
-  const postCover = await fs.readFileSync("./src/assets/logo.png");
+  const postCover = await fs.promises.readFile(
+    path.resolve("./src/assets/logo.png")
+  );
 
   const html = {
     type: "div",
@@ -69,7 +72,7 @@ export async function GET({ props, params }: Props) {
               {
                 type: "div",
                 props: {
-                  tw: "text-3xl float-left",
+                  tw: "text-3xl",
                   style: {
                     fontFamily: "DM Mono Bold",
                   },

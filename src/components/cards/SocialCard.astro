@@ -5,7 +5,6 @@ const { displaySocialIds } = Astro.props;
 // const displaySocialIds: number[] = []; // 显示所有（当数组为空时）
 
 const filteredSocial = social.filter((item) => {
-  if (item.isShow === false) return false;
   if (displaySocialIds.length > 0) {
     return displaySocialIds.includes(item.id);
   }

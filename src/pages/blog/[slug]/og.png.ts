@@ -52,7 +52,7 @@ export async function GET({ props, params }: Props) {
           type: "div",
           props: {
             // using tailwind
-            tw: "absolute top-[24px] right-[24px] w-[120px] h-[120px] flex",
+            tw: "absolute top-[32px] right-[32px] w-[120px] h-[120px] flex",
             children: [
               {
                 type: "img",

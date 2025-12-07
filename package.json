@@ -33,7 +33,7 @@
     "@biomejs/biome": "1.7.3",
     "@tailwindcss/typography": "^0.5.13",
     "@types/matter-js": "^0.20.2",
-    "astro": "^5.16.2",
+    "astro": "^5.16.4",
     "postcss": "^8.4.31",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.4.5",
@@ -50,5 +50,5 @@
     "matter-js": "^0.20.0",
     "motion": "^12.23.24",
     "sharp": "^0.34.4"
-  }F
+  }
 }
